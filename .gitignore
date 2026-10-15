@@ -1,0 +1,26 @@
+# Files
+# *.odt
+
+
+# Folders
+.venv
+.env
+.env.*
+
+.vscode
+.idea/
+
+*.py[cod]
+/pycache/*
+__pycache__
+build/
+dist/
+*.egg-info/
+.DS_Store
+Thumbs.db
+
+.ipynb_checkpoints/
+
+data/
+figures/
+excercises/
