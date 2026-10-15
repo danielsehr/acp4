@@ -5,15 +5,17 @@ class Config:
     fid: int = 1193
     gauge_id: str = "DEB10810"
     
-    catchment_dir: str = "data/camels_de/CAMELS_DE_catchment_boundaries/catchments"
-    catchment_gpkg_path: str = "data/camels_de/CAMELS_DE_catchment_boundaries/catchments/CAMELS_DE_catchments.gpkg"
-    dem_asc_path: str = "data/DEM/dgm200_utm32s.asc"
-    gauge_gpkg_path: str = "data/camels_de/CAMELS_DE_catchment_boundaries/gauging_stations/CAMELS_DE_gauging_stations.gpkg"
-    landcover_csv_path: str = "data/camels_de/CAMELS_DE_landcover_attributes.csv"
-
     data_dir: str = "data/"
-    timeseries_dir: str = "data/camels_de/timeseries"    
-    timeseries_simulated_dir: str = "data/camels_de/timeseries_simulated"    
+    
+    catchment_dir: str =            "data/camels_de/CAMELS_DE_catchment_boundaries/catchments"
+    catchment_gpkg_path: str =      "data/camels_de/CAMELS_DE_catchment_boundaries/catchments/CAMELS_DE_catchments.gpkg"
+    gauge_gpkg_path: str =          "data/camels_de/CAMELS_DE_catchment_boundaries/gauging_stations/CAMELS_DE_gauging_stations.gpkg"
+    landcover_csv_path: str =       "data/camels_de/CAMELS_DE_landcover_attributes.csv"
+    timeseries_dir: str =           "data/camels_de/timeseries"    
+    timeseries_simulated_dir: str = "data/camels_de/timeseries_simulated" 
+    
+    dem_asc_path: str = "data/DEM/dgm200_utm32s.asc"
+    
     agrometeo_dir: str = "data/agrarmeteorologie_stations"
     agrometeo_steinweiler_dir: str = "data/agrarmeteorologie_stations/steinweiler"
     agrometeo_herxheimweyher_dir: str = "data/agrarmeteorologie_stations/herxheimweyher"
