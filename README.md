@@ -23,7 +23,10 @@ Make sure [uv](https://docs.astral.sh/uv/getting-started/installation/#standalon
 uv sync
 ```
 
-This creates a virtual environment (if needed) and installs the project dependencies specified in `pyproject.toml` and `uv.lock`.
+This creates a virtual environment and installs the project dependencies specified in `pyproject.toml` and `uv.lock`.
 
 
-Got to src/acp4/main.ipynb to run the submission!
+## 4. Run submission
+- Got to src/acp4/main.ipynb
+- Select the created .venv as python kernel 
+- Run the submission!
