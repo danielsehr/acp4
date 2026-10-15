@@ -41,6 +41,9 @@ def save_plot(
     name: str,
     ) -> None:
     
+    if not Path(config.plot_output_dir).exists():
+        Path(config.plot_output_dir).mkdir(exist_ok=True, parents=True)
+    
     plot.savefig(
         Path(config.plot_output_dir) / f"{name}.png",
         dpi=300,

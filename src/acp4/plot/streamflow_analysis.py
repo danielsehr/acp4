@@ -448,6 +448,7 @@ def plot_high_low_percentile_flows(
     )
 
     ax.add_collection(line)
+    ax.autoscale()
 
     # Format x-axis as dates
     ax.xaxis_date()

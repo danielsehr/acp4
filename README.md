@@ -12,12 +12,12 @@ cd /path/to/your/directory
 
 ```bash
 git clone https://github.com/danielsehr/acp4.git
-cd ACP4-Seminar
+cd acp4
 ```
 
 ## 3. Install dependencies
 
-Make sure [uv](https://docs.astral.sh/uv/) is installed, then run:
+Make sure [uv](https://docs.astral.sh/uv/getting-started/installation/#standalone-installer) is installed, then run:
 
 ```bash
 uv sync
@@ -25,8 +25,5 @@ uv sync
 
 This creates a virtual environment (if needed) and installs the project dependencies specified in `pyproject.toml` and `uv.lock`.
 
-To run Python commands within the environment, use:
 
-```bash
-uv run python your_script.py
-```
+Got to src/acp4/main.ipynb to run the submission!
